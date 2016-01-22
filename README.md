@@ -8,9 +8,13 @@
 _Enter in any positive number you want (the program will ignore any numbers to the right of the decimal)_
 
 The program will do 4 things:
+
 1. Return any number divisible by 3 to show the word "Ping"
+
 2. Return and number divisible by 5 to show the word "ponG"
+
 3. Return any number divisible by 3 and 5 to show the word "PINGPONG!!!
+
 4. The rest of the output will show the numbers without any changes
 
 
