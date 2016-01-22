@@ -3,10 +3,20 @@ var results = function(countTo) {
   var numberArray = [];
   var result = parseInt(countTo);
 
-  console.log(countTo)
-  for(var index = 1; index < (result + 1); index += 1) {
-    numberArray.push(index);
-  }  console.log(numberArray)
+  for(var i1 = 1; i1 < (result + 1); i1 += 1) {
+    numberArray.push(i1);
+  }
+  numberArray = numberArray.toString();
+  console.log(numberArray)
   return numberArray;
-
 }
+
+
+
+
+// for (var i2 = 0); i2 < numberArray.length; i2++) {
+//   if (numberArray[i2] % 3 === 0 && numberArray[i2] % 5 === 0) {
+//     numberArray[i2] = numberArray[i2].replace(numberArray[i2],"pingpong");
+//   }
+// }
+// }
