@@ -1,5 +1,5 @@
-describe ('input', function(){
-  it("will recognize the number entered",function(){
-    expect(input(7)).to.equal(7);
-  });
+describe('counter', function() {
+  it("will recognize the input number", function(){
+  expect(output(5)).to.equal(5);
+});
 });
