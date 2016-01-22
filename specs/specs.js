@@ -1,5 +1,5 @@
-describe('counter', function() {
-  it("will recognize the input number", function(){
-  expect(output(5)).to.equal(5);
-});
+describe('results', function() {
+  it("make an array for as long as the entered input", function(){
+  expect(results(3)).to.eql([1,2,3]);
+  });
 });
