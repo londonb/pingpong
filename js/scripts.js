@@ -18,17 +18,23 @@ var results = function(countTo) {
       numberArray[i2] = "ponG";
     }
   }
+
+
+
   numberArray = numberArray.join("");
   return numberArray;
 }
+
 
 $(document).ready(function(){
 
   $("form#pingPongGames").submit(function(event) {
     var string = $("input#string").val();
     var toPrint = results(string);
-
-    $("#printTo").append("<br><hr>",toPrint,"<br><hr><strong>Have Fun!</strong>");
+    var count = (toPrint.match(/PINGPONG!!!/g) || []).length;
+console.log(count)
+    $("#count").text(count);
+    $("#printTo").append("<br><hr>",toPrint,"<br><hr><strong>Nice job!</strong>");
     $("#hide").hide();
 
   event.preventDefault();
