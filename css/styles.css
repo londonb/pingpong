@@ -46,8 +46,8 @@ body {
     -webkit-transform: translateY(0);
   }
   100% {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     opacity: 0.1;
     -webkit-transform: translateY(-21px);
   }
@@ -60,8 +60,8 @@ body {
     -moz-transform: translateY(0);
   }
   100% {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     opacity: 0.1;
     -moz-transform: translateY(-21px);
   }

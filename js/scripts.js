@@ -19,8 +19,6 @@ var results = function(countTo) {
     }
   }
 
-
-
   numberArray = numberArray.join("");
   return numberArray;
 }
