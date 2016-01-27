@@ -1,17 +1,17 @@
 describe('results', function() {
   it("will display every number divisible by 5 to say ping", function() {
-  expect(results(5)).to.equal("1,2,ping,4,pong");
+  expect(results(5)).to.equal("<li>1<li>2<li>Ping<li>4<li>ponG");
   });
 });
 
 describe('results', function() {
   it("will display every number divisible by 3 to say ping", function() {
-  expect(results(3)).to.equal("1,2,ping");
+  expect(results(3)).to.equal("<li>1<li>2<li>Ping");
   });
 });
 
 describe('results', function() {
   it("will display every number divisible by 3 and 5 to say pingpong", function() {
-  expect(results(15)).to.equal("1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong");
+  expect(results(15)).to.equal('<li>1<li>2<li>Ping<li>4<li>ponG<li>Ping<li>7<li>8<li>Ping<li>ponG<li>11<li>Ping<li>13<li>14<li>PINGPONG!!!');
   });
 });
